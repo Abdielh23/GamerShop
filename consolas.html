@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogos</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				
+				<div class="four columns">
+					<h1>Gamer</h1>
+				</div>
+				<div class="two columns u-pull-right">
+					<ul>
+						<li class="submenu">
+							<img src="img/cart.png">
+							<div id="carrito">
+								<p class="vacio">carrito vacio</p>
+								<table id="lista-carrito" class="u-full-width">
+									<thead>
+										<tr>
+											<th>Imagen</th>
+											<th>Productos</th>
+											<th>Precio</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<img src="img/ps4.png" width="100">
+											</td>
+											<td>PS4</td>
+											<td>$399.99</td>
+											<td><a href="#" class="borrar-product">X</a></td>
+										</tr>
+										<tr>
+											<td>
+												<img src="img/ps5.jpeg" width="100">
+											</td>
+											<td>PS5</td>
+											<td>$1000</td>
+											<td><a href="#" class="borrar-product">X</a></td>
+										</tr>
+									</tbody>
+								</table>
+								<a href="#" id="Vaciar-carrito"class="button u-full-width">vaciar carrito</a>
+							</div>	
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="six columns">
+					<div class="contenido-hero">
+						<h2>Pide un pedido</h2>
+						<p>Todos los pedidos con descuento</p>
+						<form>
+							<input class="u-full-width" type="text" placeholder="¿Que te gustaria comprar?" id="buscador">
+							<input type="submit" class="submit-buscador">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="barra">
+		<div class="container">
+			<div class="row">
+				<div class="four columns icono icono1">
+					<p>100 productos diferentes<br>
+					Explora los nuevos productos</p>
+				</div>
+				<div class="four columns icono icono2">
+					<p>Expertos<br>
+					Prueba las nuevas combinaciones</p>
+				</div>
+				<div class="four columns icono icono3">
+					<p>Envio<br>
+					Gratis hasta tu casa</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="lista-catalogo" class="container">
+		<h1 class="encabezado">Pedidos en linea</h1>
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/ps4.png" class="u-full-width">
+					<div class="info-card">
+						<h4>PS4</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$599<span class="u-pull-right">$399</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/mandops4.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>Mando PS4</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$69.99<span class="u-pull-right">$59.99</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/ps5.jpeg" class="u-full-width">
+					<div class="info-card">
+						<h4>PS5</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$1100<span class="u-pull-right">$1000</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/mandops5.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>Pc Gamer Sencilla</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$79.99<span class="u-pull-right">$69.99</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/switch.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>swicth Oled</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$599<span class="u-pull-right">$499</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/normal.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Swicth</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$499<span class="u-pull-right">$399</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/mandopro.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>Mando Pro /h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$100<span class="u-pull-right">$90</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/joycon.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>Joy Con </h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$150<span class="u-pull-right">$100</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/lite.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Swicth Lite</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$399<span class="u-pull-right">$290</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/xbox x.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>Xbox Serie X </h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$1200<span class="u-pull-right">$1000</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/xboxs.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>Xbox Serie S</h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$499<span class="u-pull-right">$399</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="img/mandoxbox.jpg" class="u-full-width">
+					<div class="info-card">
+						<h4>MAndo Xbox </h4>
+						<p>Envio Gratis</p>
+						<img src="img/estrellas.png">
+						<p class="precio">$79.99<span class="u-pull-right">$69.99</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="four columns">
+					<nav class="menu">
+						<br>
+
+
+
+					
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+<h1><a href="index.html">Volver</a></h1>
+</body>
+</html>
